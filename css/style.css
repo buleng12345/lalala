@@ -144,6 +144,7 @@
 	line-height: 58px;
 	color: #333;
 	float: left;
+	font-weight: 300;
 }
 .shan-gou-jian{
 	width: 71px;
@@ -173,6 +174,7 @@
 .shan-gou .bottom{
 	width: 100%;
 	height: calc(100% - 58px);
+	padding-bottom: 40px;
 }
 .bottom-left{
 	width: 234px;
@@ -232,6 +234,9 @@
 	float: left;
 	margin-left: 14px;
 }
+.bottom-right .item1,.item2,.item3,.item4{
+	position: relative;
+}
 .bottom-right .jiang200{
 	width: 64px;
 	height: 20px;
@@ -267,6 +272,238 @@
 	margin-top: 40px;
 }
 /* 闪购结束 */
+.beijin{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+	margin: 0;
+	padding: 0;
+}
+/* 手机开始 */
+.shouji{
+	width: 1226px;
+	height: 672px;
+	margin: 0 auto;
+}
+.shouji-top{
+	width: 100%;
+	height: 58px;
+}
+.shouji-top-left{
+	line-height: 58px;
+	font-size: 24px;
+	float: left;
+	color: #333333;
+	font-weight: 300;
+}
+.shouji-top-right{
+	height: 58px;
+}
+.shouji-top-right .right-wenzi{
+	width: 100px;
+	height: 58px;
+	float: right;
+	font-size: 16px;
+	color: #424242;
+	line-height: 58px;
+}
+.shouji-bottom{
+	width: 1226px;
+	height: 614px;
+}
+.shouji-bottom .bottom-left img{
+	width: 234px;
+	height: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.shouji-bottom>ul>li{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 14px;
+	text-align: center;
+	background: #fff;
+	position: relative;
+	margin-bottom: 14px;
+	box-sizing: border-box;
+}
+.shouji-bottom>ul .xia{
+	margin-bottom: 0;
+}
+.shouji-bottom>ul .zuo{
+	margin-left: 0;
+}
+.shouji-bottom>ul>li img{
+	width: 160px;
+	height: 160px;
+	margin-top: 20px;
+}
+.shouji-bottom-wenzi{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	margin-top: 20px;
+}
+.shouji-bottom-jieshao{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	text-align: center;
+	color: #c9c9c9;
+	font-size: 12px;
+	margin: 10px 25px ;
+}
+.shouji-bottom-jiage{
+	text-align: center;
+	color: #fa6509;
+	font-size: 14px;
+	margin-top: 15px;
+}
+/* 手机结束 */
+/* 家电开始 */
+.jiadian{
+	width: 1226px;
+	height: 672px;
+	margin: 0 auto;
+}
+.jiadian-top{
+	width: 100%;
+	height: 58px;
+}
+.jiadian-top-left{
+	line-height: 58px;
+	font-size: 24px;
+	float: left;
+	color: #333333;
+	font-weight: 300;
+}
+.jiadian-top-right{
+	height: 58px;
+	float: right;
+}
+.jiadian-top-right .right-wenzi1{
+	height: 58px;
+	float: left;
+	font-size: 16px;
+	color: #424242;
+	line-height: 58px;
+	margin-left: 25px;
+}
+.jiadian-top-right .right-wenzi{
+	height: 58px;
+	float: left;
+	font-size: 16px;
+	color: #ff6700;
+	line-height: 58px;
+}
+.jiadian-bottom{
+	width: 1226px;
+	height: 614px;
+}
+.jiadian-bottom .bottom-left img{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 14px;
+}
+.jiadian-bottom>ul>li{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 14px;
+	text-align: center;
+	background: #fff;
+	position: relative;
+	margin-bottom: 14px;
+	box-sizing: border-box;
+}
+.jiadian-bottom>ul .xia{
+	margin-bottom: 0;
+}
+.jiadian-bottom>ul .zuo{
+	margin-left: 0;
+}
+.jiadian-bottom>ul .box1{
+	width: 234px;
+	height: 143px;
+}
+.jiadian-bottom>ul .box1 img{
+	width: 80px;
+	height: 80px;
+	float: right;
+	margin-right: 15px;
+}
+.jiadian-bottom-wenzi1{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.jiadian-bottom-jiage1{
+	color: #fa6509;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-left: 0px;
+}
+.jiadian-bottom>ul .box2{
+	width: 234px;
+	height: 143px;
+}
+.jiadian-bottom>ul .box2 .text-1{
+	font-size: 20px;
+	margin-top: 50px;
+}
+.jiadian-bottom>ul .box2 .text-2{
+	color: #c9c9c9;
+	font-size: 12px;
+}
+.jiadian-bottom>ul .box2 i{
+	width: 48px;
+	height: 48px;
+	color: #ff6700;
+	float: right;
+}
+.jiadian-bottom>ul>li img{
+	width: 160px;
+	height: 160px;
+	margin-top: 20px;
+}
+.jiadian-bottom-wenzi{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	margin-top: 10px;
+}
+.jiadian-bottom-jieshao{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	text-align: center;
+	color: #c9c9c9;
+	font-size: 12px;
+	margin: 10px 25px ;
+}
+.jiadian-bottom-jiage{
+	text-align: center;
+	color: #fa6509;
+	font-size: 14px;
+	margin-top: 15px;
+}
+/* 家电结束 */
 /* 推荐开始 */
 .tuijian{
 	width: 1226px;
@@ -282,13 +519,13 @@
 	font-size: 24px;
 	float: left;
 	color: #333333;
+	font-weight: 300;
 }
 .tuijian-top-right{
 	width: 100px;
 	height: 58px;
 	float: right;
 }
-
 .tuijian-top-right .box-one{
 	width: 71px;
 	height: 24px;
@@ -296,6 +533,7 @@
 	margin-top: 17px;
 	border: 1px solid #e0e0e0;
 	box-sizing: border-box;
+	line-height: 58px;
 }
 .box-one-left{
 	width: 35px;
@@ -318,14 +556,11 @@
 	height: 320px;
 	overflow: hidden;
 }
-ul,li{
-	list-style: none;
-}
 .tuijian-bottom>ul{
 	width: calc(1226px * 3);
 	height: 320px;
 	float: left;
-	background: #f5f5f5;
+	/* background: #f5f5f5; */
 }
 .tuijian-bottom>ul>li{
 	width: 234px;
@@ -350,7 +585,7 @@ ul,li{
 	font-size: 16px;
 	color: #333;
 	text-align: center;
-	margin-top: 20px;
+	margin: 20px 20px;
 }
 .tuijian-bottom-biaojia{
 	text-align: center;
