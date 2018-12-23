@@ -128,6 +128,42 @@
 	font-size: 20px;
 }
 /* 导航结束 */
+/* 轮播开始 */
+.lunbo{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+	background: #333;
+}
+.lunbo .lunbo-left{
+	width: 234px;
+	height: 100%;
+	background: #000;
+	opacity: 0.6;
+}
+.lunbo .lunbo-left>ul>li{
+	width: 234px;
+	height: 42px;
+	color: #fff;
+	font-size: 14px;
+}
+.lunbo .lunbo-left>ul{
+	overflow: hidden;
+}
+.one{
+	margin-top: 20px;
+}
+.lunbo .lunbo-left>ul>li .left{
+	line-height: 42px;
+	padding-left: 30px;
+	float: left;
+}
+.lunbo .lunbo-left>ul>li .right{
+	float: right;
+	padding-right: 30px;
+	line-height: 42px;
+}
+/* 轮播结束 */
 /* 闪购开始 */
 .shan-gou{
 	width: 1226px;
@@ -461,17 +497,26 @@
 	height: 143px;
 }
 .jiadian-bottom>ul .box2 .text-1{
+	width: 90px;
+	height: 26px;
 	font-size: 20px;
 	margin-top: 50px;
+	margin-left: 20px;
+	line-height: 26px;
 }
 .jiadian-bottom>ul .box2 .text-2{
+	width: 50px;
+	height: 16px;
 	color: #c9c9c9;
 	font-size: 12px;
+	margin-top: 5px;
+	margin-left: 15px;
 }
 .jiadian-bottom>ul .box2 i{
 	width: 48px;
 	height: 48px;
 	color: #ff6700;
+	margin-right: 15px;
 	float: right;
 }
 .jiadian-bottom>ul>li img{

@@ -46,6 +46,6 @@ ul,li,i{
 .charu img{
 	width: 1226px;
 	height: 120px;
-	/* padding: 40px 0; */
 	margin: 40px auto;
+	display: block;
 }
