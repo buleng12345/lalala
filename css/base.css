@@ -40,8 +40,11 @@
 .new{
 	background: #83c44e;
 }
-ul,li,i{
+ul,li{
 	list-style: none;
+}
+i{
+	font-style: normal;
 }
 .charu img{
 	width: 1226px;
