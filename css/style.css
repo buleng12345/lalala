@@ -140,6 +140,7 @@
 	height: 100%;
 	background: #000;
 	opacity: 0.6;
+	float: left;
 }
 .lunbo .lunbo-left>ul>li{
 	width: 234px;
@@ -162,6 +163,16 @@
 	float: right;
 	padding-right: 30px;
 	line-height: 42px;
+}
+.lunbo .lunbo-right{
+	width: 992px;
+	height: 100%;
+	float: right;
+}
+.lunbo .lunbo-right img{
+	width: 992px;
+	height: 100%;
+	float: right;
 }
 /* 轮播结束 */
 /* 闪购开始 */
