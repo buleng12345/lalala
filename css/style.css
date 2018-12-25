@@ -10,6 +10,7 @@
 	margin: 0px auto;
 }
 .head-left{
+	width: 900px;
 	float: left;
 	height: 100%;
 }
@@ -19,6 +20,9 @@
 	line-height: 40px;
 	color: #b0b0b0;
 	font-size: 12px;
+}
+.head-left .text:hover{
+	color: #fff;
 }
 .head-left .line{
 	float: left;
@@ -42,7 +46,12 @@
 	font-size: 14px;
 	color: #a2a2a2;
 }
+.head-right .box2:hover{
+	color: #ff6700;
+	background: #fff;
+}
 .head-right .box1{
+	width: 150px;
 	height: 100%;
 	float: left;
 	margin-right: 25px;
@@ -53,6 +62,9 @@
 	line-height: 40px;
 	color: #b0b0b0;
 	font-size: 14px;
+}
+.head-right .text:hover{
+	color: #fff;
 }
 .head-right .line{
 	float: left;
@@ -80,8 +92,12 @@
 	margin-right: 170px;
 }
 .head1-left1{
+	width: 900px;
 	float: left;
 	height: 100%;
+}
+.head1-left1 .text1:hover{
+	color: #ff6700;
 }
 .head1-left1 .text1{
 	float: left;
@@ -127,6 +143,10 @@
 	line-height: 48px;
 	font-size: 20px;
 }
+.search-icons:hover{
+	background: #ff6700;
+	color: #fff;
+}
 /* 导航结束 */
 /* 轮播开始 */
 .lunbo{
@@ -138,8 +158,7 @@
 .lunbo .lunbo-left{
 	width: 234px;
 	height: 100%;
-	background: #000;
-	opacity: 0.6;
+	/* background: #000; */
 	float: left;
 }
 .lunbo .lunbo-left>ul>li{
@@ -147,6 +166,9 @@
 	height: 42px;
 	color: #fff;
 	font-size: 14px;
+}
+.lunbo .lunbo-left>ul>li:hover{
+	background: #ff6700;
 }
 .lunbo .lunbo-left>ul{
 	overflow: hidden;
@@ -163,6 +185,7 @@
 	float: right;
 	padding-right: 30px;
 	line-height: 42px;
+	height: 42px;
 }
 .lunbo .lunbo-right{
 	width: 992px;
@@ -317,6 +340,11 @@
 	font-size: 14px;
 	color: #fa6509;
 	margin-top: 40px;
+}
+.bottom-right del{
+	font-size: 14px;
+	color: #c9c9c9;
+	padding-left: 5px;
 }
 /* 闪购结束 */
 .beijin{
@@ -507,6 +535,11 @@
 	width: 234px;
 	height: 143px;
 }
+.jiadian-bottom>ul .box2 .box2-left{
+	width: 90px;
+	height: 50px;
+	float: left;
+}
 .jiadian-bottom>ul .box2 .text-1{
 	width: 90px;
 	height: 26px;
@@ -525,10 +558,12 @@
 }
 .jiadian-bottom>ul .box2 i{
 	width: 48px;
-	height: 48px;
+	height: 143px;
 	color: #ff6700;
 	margin-right: 15px;
 	float: right;
+	font-size: 48px;
+	line-height: 143px;
 }
 .jiadian-bottom>ul>li img{
 	width: 160px;
@@ -656,3 +691,172 @@
 	margin-top: 20px;
 }
 /* 推荐结束 */
+/* 热评开始 */
+.reping{
+	width: 1226px;
+	height: 473px;
+	margin: 0 auto;
+}
+.reping-top{
+	line-height: 58px;
+	font-size: 24px;
+	color: #333333;
+	font-weight: 300;
+	height: 58px;
+	width: 1226px;
+	margin-top: 15px;
+}
+.reping-bottom{
+	width: 1226px;
+	height: 415px;
+}
+.reping-bottom>li{
+	width: 296px;
+	height: 415px;
+	float: left;
+	background: #fff;
+}
+.reping-bottom .you{
+	margin-left: 14px;
+}
+.reping-bottom img{
+	width: 296px;
+	height: 220px;
+}
+.reping-bottom>li .pingjia{
+	font-size: 14px;
+	color: #333;
+	margin: 25px 20px;
+}
+.reping-bottom>li .juese{
+	color: #757575;
+	font-size: 12px;
+	margin: 15px 20px;
+}
+.reping-bottom>li .chanping{
+	font-size: 14px;
+	color: #333;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.reping-bottom>li .baiojia{
+	color: #ff8a3b;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: 5px;
+	float: left;	
+}
+/* 热评结束 */
+/* 内容开始 */
+.neirong{
+	width: 1226px;
+	height: 478px;
+	margin: 0 auto;
+}
+.neirong-top{
+	line-height: 58px;
+	font-size: 24px;
+	color: #333333;
+	font-weight: 300;
+	height: 58px;
+	width: 1226px;
+	margin-top: 15px;
+}
+.neirong-bottom{
+	width: 1226px;
+	height: 420px;
+}
+.neirong-bottom>ul>li{
+	width: 296px;
+	height: 420px;
+	float: left;
+	background: #fff;
+}
+.neirong-bottom .you{
+	margin-left: 14px;
+}
+.neirong-bottom>ul>li img{
+	width: 216px;
+	height: 154px;
+	display: block;
+	margin: 70px auto;
+}
+.neirong-bottom>ul>li .youxi{
+	font-size: 16px;
+	color: red;
+	margin: 25px 20px;
+	text-align: center;
+}
+.neirong-bottom>ul>li .mz{
+	color: #000;
+	font-size: 20px;
+	margin: 10px 20px;
+	text-align: center;
+}
+.neirong-bottom>ul>li .js{
+	font-size: 14px;
+	color: #757575;
+	margin-top: 10px;
+	text-align: center;
+}
+/* 内容结束 */
+/* 视频开始 */
+.shipin{
+	width: 1226px;
+	height: 343px;
+	margin: 0 auto;
+}
+.shipin-top{
+	width: 100%;
+	height: 58px;
+	margin-top: 14px;
+}
+.shipin-top-left{
+	line-height: 58px;
+	font-size: 24px;
+	float: left;
+	color: #333333;
+	font-weight: 300;
+}
+.shipin-top-right{
+	height: 58px;
+}
+.shipin-top-right .right-wenzi{
+	width: 100px;
+	height: 58px;
+	float: right;
+	font-size: 16px;
+	color: #424242;
+	line-height: 58px;
+}
+.shipin-bottom{
+	width: 1226px;
+	height: 285px;
+}
+.shipin-bottom>ul>li{
+	width: 296px;
+	height: 285px;
+	float: left;
+	background: #fff;
+}
+.shipin-bottom .you{
+	margin-left: 14px;
+}
+.shipin-bottom>ul>li img{
+	width: 296px;
+	height: 180px;
+}
+.shipin-bottom>ul>li .mz{
+	color: #000;
+	font-size: 14px;
+	margin: 15px 20px;
+	text-align: center;
+}
+.shipin-bottom>ul>li .js{
+	font-size: 12px;
+	color: #757575;
+	margin-top: 10px;
+	text-align: center;
+}
+/* 视频结束 */
