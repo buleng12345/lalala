@@ -170,8 +170,17 @@
 .lunbo .lunbo-left>ul>li:hover{
 	background: #ff6700;
 }
+.lunbo .lunbo-left>ul>a{
+	width: 234px;
+	height: 42px;
+	color: #fff;
+	font-size: 14px;
+}
 .lunbo .lunbo-left>ul{
 	overflow: hidden;
+}
+.lunbo .lunbo-left a:visited{
+	color: #fff;
 }
 .one{
 	margin-top: 20px;
@@ -349,7 +358,7 @@
 /* 闪购结束 */
 .beijin{
 	width: 100%;
-	height: 100%;
+	height: 7010px;
 	background: #f5f5f5;
 	margin: 0;
 	padding: 0;
@@ -651,7 +660,6 @@
 	width: calc(1226px * 3);
 	height: 320px;
 	float: left;
-	/* background: #f5f5f5; */
 }
 .tuijian-bottom>ul>li{
 	width: 234px;
@@ -860,3 +868,198 @@
 	text-align: center;
 }
 /* 视频结束 */
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	height: 272px;
+}
+.dibu .dibu-top{
+	width: 1226px;
+	height: 80px;
+	margin: 0 auto;
+}
+.dibu .dibu-top .fuwu,.fuwu1{
+	width: 245.2px;
+	height: 25px;
+	float: left;
+	margin-top: 30px;
+	border-right: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+	color: #000;
+}
+.dibu .dibu-top .fuwu:hover{
+	color: #ff6700;
+}
+.dibu .dibu-top .fuwu1:hover{
+	color: #ff6700;
+}
+.fuwu1{
+	border: 0;
+}
+.dibu .dibu-bottom{
+	width: 1226px;
+	height: 192px;
+	margin: 0 auto;
+	border-top: 1px solid #e0e0e0;
+}
+.dibu-left{
+	width: 960px;
+	height: 112px;
+	float: left;
+	margin-top: 40px;
+}
+.dibu-left .bang{
+	width: 160px;
+	height: 100%;
+	float: left;
+}
+.dibu-left .bang .text{
+	width: 100%;
+	height: 17px;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+.dibu-left .bang .text1{
+	width: 100%;
+	height: 14px;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: left;
+	margin-top: 10px;
+	color: #757575;
+}
+.dibu-left .bang .text1:hover{
+	color: #FF6700;
+}
+.dibu-right{
+	width: 252px;
+	height: 112px;
+	float: right;
+	margin-top: 40px;
+	border-left: 1px solid #e0e0e0;
+}
+.dibu-right .tel{
+	width: 251px;
+	height: 22px;
+	margin-bottom: 5px;
+	font-size: 22px;
+    line-height: 22px;
+    color: #ff6700;
+	text-align: center;
+}
+.dibu-right .time,.time1{
+	width: 251px;
+	height: 18px;
+	font-size: 12px;
+	text-align: center;
+    color: #616161;
+	line-height: 18px;
+}
+.dibu-right .time1{
+	margin-bottom: 17px;
+}
+.dibu-right .kefu{
+	width: 120px;
+	height: 30px;
+	background: #fff;
+	border: 1px solid #ff6700;
+	margin: 0 auto;
+	font-size: 12px;
+    line-height: 30px;
+	color: #FF6700;
+	text-align: center;
+}
+.dibu-right .kefu:hover{
+	background: #FF6700;
+	color: #fff;
+}
+/* 底部结束 */
+/* 大底开始 */
+.dadi{
+	width: 100%;
+	height: 292px;
+	background: #f5f5f5;
+	overflow: hidden;
+}
+.dadi .laji{
+	width: 1226px;
+	height: 232px;
+	background: #f5f5f5;
+	margin: 30px auto;
+	overflow: hidden;
+	position: relative;
+}
+.dadi .laji img{
+	float: left;
+}
+.dadi .laji .text1{
+	width: 900px;
+	height: 19px;
+	float: left;
+	margin-left: 10px;
+}
+.dadi .laji .text1 .gun{
+	font-size: 12px;
+	color: #b0b0b0;
+	float: left;
+	margin: 0 2px;
+}
+.dadi .laji .text1 a{
+	font-size: 12px;
+	line-height: 19px;
+	color: #757575;
+	height: 19px;
+	float: left;
+}
+.dadi .laji .text1 a:hover{
+	color: #FF6700;
+}
+.dadi .laji .text1 .a1{
+	border: 0;
+}
+.dadi .laji .text2{
+	width: 900px;
+	height: 19px;
+	float: left;
+	margin-left: 10px;
+	color: #b0b0b0;
+	font-size: 12px;
+	line-height: 19px;
+}
+.dadi .laji .text3{
+	width: 900px;
+	height: 19px;
+	float: left;
+	margin-left: 66px;
+	color: #b0b0b0;
+	font-size: 12px;
+	line-height: 19px;
+}
+.xiaomi{
+	width: 267px;
+	height: 19px;
+	font-size: 19px;
+	line-height: 19px;
+	text-align: center;
+	margin-top: 180px;
+	color: #b0b0b0;
+	margin: 190px auto 0px auto;
+}
+.laji .five{
+	width: 260px;
+	float: right;
+	position: absolute;
+	right: 0px;
+	top: 160px;
+}
+.laji .five img{
+	width: 85px;
+	height: 28px;
+	margin-bottom: 15px;
+}
+/* 大底结束 */
