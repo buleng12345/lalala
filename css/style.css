@@ -413,6 +413,10 @@
 	margin-bottom: 14px;
 	box-sizing: border-box;
 }
+.shouji-bottom>ul>li:hover{
+	transform:translateY(-3px);
+	box-shadow:0 0 20px 10px #616161;
+}
 .shouji-bottom>ul .xia{
 	margin-bottom: 0;
 }
