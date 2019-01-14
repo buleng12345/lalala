@@ -395,12 +395,26 @@
 	width: 1226px;
 	height: 614px;
 }
+
+.shouji-bottom .bottom-left{
+	width: 234px;
+	height: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	transition: all 0.5s;
+}
+.shouji-bottom .bottom-left:hover{
+	transform: translateY(-5px);
+	box-shadow:0 10px 20px 3px rgba(0,0,0,0.1);
+}
 .shouji-bottom .bottom-left img{
 	width: 234px;
 	height: 100%;
 	float: left;
 	margin: 0;
 	padding: 0;
+	cursor: pointer;
 }
 .shouji-bottom>ul>li{
 	width: 234px;
@@ -412,17 +426,19 @@
 	position: relative;
 	margin-bottom: 14px;
 	box-sizing: border-box;
+	transition: all 0.5s;
+	cursor: pointer;
 }
 .shouji-bottom>ul>li:hover{
-	transform:translateY(-3px);
-	box-shadow:0 0 20px 10px #616161;
+	transform:translateY(-5px);
+	box-shadow:0 0 20px 3px rgba(0,0,0,0.1);
 }
 .shouji-bottom>ul .xia{
 	margin-bottom: 0;
 }
-.shouji-bottom>ul .zuo{
+/* .shouji-bottom>ul .zuo{
 	margin-left: 0;
-}
+} */
 .shouji-bottom>ul>li img{
 	width: 160px;
 	height: 160px;
@@ -493,6 +509,15 @@
 	width: 1226px;
 	height: 614px;
 }
+.jiadian-bottom .bottom-left{
+	width: 234px;
+	height: 100%;
+	background: #f5f5f5;
+	float: left;
+	margin: 0;
+	padding: 0;
+	transition: all 0.5s; 
+}
 .jiadian-bottom .bottom-left img{
 	width: 234px;
 	height: 300px;
@@ -500,6 +525,12 @@
 	margin: 0;
 	padding: 0;
 	margin-bottom: 14px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.jiadian-bottom .bottom-left img:hover{
+	transform: translateY(-5px);
+	box-shadow:0 10px 20px 3px rgba(0,0,0,0.1);
 }
 .jiadian-bottom>ul>li{
 	width: 234px;
@@ -511,12 +542,43 @@
 	position: relative;
 	margin-bottom: 14px;
 	box-sizing: border-box;
+	transition: all 0.5s;
+	cursor: pointer;
+	overflow: hidden;
+}
+.jiadian-bottom>ul>li:hover{
+	transform: translateY(-5px);
+	box-shadow: 0 0 20px 3px rgba(0,0,0,0.1);
+}
+.jiadian-bottom>ul>li .move{
+	width: 100%;
+	height: 75px;
+	background: #ff6700;
+	position: absolute;
+	bottom: -75px;
+	transition: all 0.3s;
+}
+.jiadian-bottom>ul>li .move .ppp1{
+	font-size: 12px;
+	color: #fff;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 10px;
+	text-align: left;
+}
+.jiadian-bottom>ul>li .move .ppp2{
+	font-size: 12px;
+	color: #EDEDED;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 5px;
+	text-align: left;
+}
+.jiadian-bottom>ul>li:hover .move{
+	transform: translateY(-75px);
 }
 .jiadian-bottom>ul .xia{
 	margin-bottom: 0;
-}
-.jiadian-bottom>ul .zuo{
-	margin-left: 0;
 }
 .jiadian-bottom>ul .box1{
 	width: 234px;
@@ -672,11 +734,17 @@
 	margin-left: 14px;
 	text-align: center;
 	background: #fff;
+	transition: all 0.5s;
+}
+.tuijian-bottom>ul>li:hover{
+	transform: translateY(-5px);
+	box-shadow: 0 0 20px 3px rgba(0,0,0,0.1);
 }
 .tuijian-bottom li img{
 	width: 140px;
 	height: 140px;
 	margin-top: 30px;
+	cursor: pointer;
 }
 .tuijian-bottom .tuijian-te{
 	margin-left: 0;
@@ -722,11 +790,16 @@
 	width: 1226px;
 	height: 415px;
 }
-.reping-bottom>li{
+.reping-bottom>ul>li{
 	width: 296px;
 	height: 415px;
 	float: left;
 	background: #fff;
+	transition: all 0.5s;
+}
+.reping-bottom>ul>li:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 0 20px 3px rgba(0,0,0,0.1);
 }
 .reping-bottom .you{
 	margin-left: 14px;
@@ -735,24 +808,24 @@
 	width: 296px;
 	height: 220px;
 }
-.reping-bottom>li .pingjia{
+.reping-bottom>ul>li .pingjia{
 	font-size: 14px;
 	color: #333;
 	margin: 25px 20px;
 }
-.reping-bottom>li .juese{
+.reping-bottom>ul>li .juese{
 	color: #757575;
 	font-size: 12px;
 	margin: 15px 20px;
 }
-.reping-bottom>li .chanping{
+.reping-bottom>ul>li .chanping{
 	font-size: 14px;
 	color: #333;
 	float: left;
 	margin-top: 10px;
 	margin-left: 20px;
 }
-.reping-bottom>li .baiojia{
+.reping-bottom>ul>li .baiojia{
 	color: #ff8a3b;
 	font-size: 14px;
 	margin-top: 10px;
@@ -784,6 +857,11 @@
 	height: 420px;
 	float: left;
 	background: #fff;
+	transition: all 0.5s;
+}
+.neirong-bottom>ul>li:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 0 20px 3px rgba(0,0,0,0.1);
 }
 .neirong-bottom .you{
 	margin-left: 14px;
@@ -851,6 +929,11 @@
 	height: 285px;
 	float: left;
 	background: #fff;
+	transition: all 0.5s;
+}
+.shipin-bottom>ul>li:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 0 20px 3px rgba(0,0,0,0.1);
 }
 .shipin-bottom .you{
 	margin-left: 14px;
@@ -858,6 +941,7 @@
 .shipin-bottom>ul>li img{
 	width: 296px;
 	height: 180px;
+	cursor: pointer;
 }
 .shipin-bottom>ul>li .mz{
 	color: #000;
