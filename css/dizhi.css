@@ -286,7 +286,7 @@
 }
 .guanli .xinxi:hover{
 	border: 1px solid #999;
-	transition: all 0.5s ease;
+	transition: all 0.5s;
 }
 .xinxi .name{
 	width: 220px;
@@ -327,25 +327,25 @@
 }
 .xinxi .move{
 	width: 100%;
-	height: 20px;
+	height: 30px;
 	position: absolute;
-	bottom: -20px;
-	transition: all 0.5s;
+	bottom: -30px;
+	transition: all 0s;
 }
 .xinxi:hover .move{
-	transform: translateY(-20px);
+	transform: translateY(-30px);
 }
 .xinxi .move .text_1{
 	font-size: 14px;
 	color: #ff6700;
-	line-height: 20px;
+	line-height: 30px;
 	float: right;
 	padding-right: 20px;
 }
 .xinxi .move .text_2{
 	font-size: 14px;
 	color: #ff6700;
-	line-height: 20px;
+	line-height: 30px;
 	float: right;
 	padding-right: 20px;
 }
